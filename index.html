@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Landing screen ===== -->
+  <div id="start-screen" class="card">
+    <h1>Interactive Quiz</h1>
+    <button id="start-btn" class="primary">Start Quiz</button>
+  </div>
+
+  <!-- ===== Quiz screen ===== -->
+  <div id="quiz-screen" class="card hidden">
+    <div id="header">
+      <span id="question-count"></span>
+      <span id="timer">20</span>
+    </div>
+
+    <div id="question"></div>
+    <div id="options"></div>
+
+    <!-- BUTTONS CONTAINER -->
+    <div style="display: flex; justify-content: space-between;">
+      <button id="prev-btn" class="primary hidden">Previous</button>
+      <button id="next-btn" class="primary hidden">Next</button>
+    </div>
+  </div> 
+  <!-- ===== Result screen ===== -->
+  <div id="result-screen" class="card hidden">
+    <h2 id="final-score"></h2>
+    <button id="retry-btn" class="primary">Play Again</button>
+    <button id="close-btn" class="primary">Close</button>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* ----- Global layout ----- */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.card {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.hidden { display: none; }
+
+/* ----- Buttons ----- */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.primary {
+  background: #0077ff;
+  color: #fff;
+  padding: 12px 26px;
+  margin-top: 20px;
+}
+
+#options button {
+  background: #e8eef7;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  text-align: left;
+}
+
+#options button.correct { background: #4caf50; color: #fff; }
+#options button.wrong   { background: #f44336; color: #fff; }
+
+/* ----- Header (question count + timer) ----- */
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+#timer {
+  background: #ffb703;
+  padding: 4px 12px;
+  border-radius: 20px;
+  min-width: 40px;
+}

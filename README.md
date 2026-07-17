@@ -22,9 +22,3 @@ A simple and responsive interactive quiz web application built using **HTML5**, 
 - `index.html` – Main quiz interface
 - `script.js` – JavaScript logic for quiz flow
 - `style.css` – Styling and layout
-
-## How to Run
-
-1. Clone or download this repository
-2. Open `index.html` in your browser
-3. Start playing the quiz!
